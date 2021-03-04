@@ -1,1 +1,1 @@
-# ansible-labtest
+# ansible.lab
