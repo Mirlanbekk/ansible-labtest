@@ -20,4 +20,3 @@
     template:
       src: 27-template_for_loop.conf
       dest: /tmp/app_user_report.conf
-© 2021 GitHub, Inc.
