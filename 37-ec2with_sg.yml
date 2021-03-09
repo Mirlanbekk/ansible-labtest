@@ -10,9 +10,5 @@
       key_name: keyman
       region: us-east-1
       wait: yes
-      group_id:
-        - devops
-      tags:
-
-        Environment: all
-        Name: clientNode5
+      group_id: sg-006a8a2ea483c1c02
+      
