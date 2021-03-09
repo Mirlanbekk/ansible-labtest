@@ -1,0 +1,15 @@
+---
+ - name: get ec2 info
+   hosts: localhost
+   connection: local
+   gather_facts: false
+   tasks:
+   - name: use ec2_instance_facts
+     ec2_instance_facts:
+      region: us-east-1
+      filters:
+       "tag:Day": Monday
+     register: ec2_info
+   - name: displaying output
+     debug: 
+       msg: "{{ec2_info}}"
