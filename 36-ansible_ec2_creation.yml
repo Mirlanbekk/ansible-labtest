@@ -9,5 +9,4 @@
       image: ami-0f0c1319f2315bca6
       key_name: keyman
       region: us-east-1
-      tags:
-        Environment: web
+     
